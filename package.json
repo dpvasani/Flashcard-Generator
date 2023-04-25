@@ -1,5 +1,6 @@
 {
   "name": "flashcard-generator",
+  "homepage": "https://dpvasani.github.io/Flashcard-Generator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,7 @@
     "axios": "^0.27.2",
     "daisyui": "^2.24.0",
     "formik": "^2.2.9",
+    "gh-pages": "^5.0.0",
     "immer": "^9.0.15",
     "nanoid": "^4.0.0",
     "react": "^18.2.0",
@@ -28,6 +30,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
