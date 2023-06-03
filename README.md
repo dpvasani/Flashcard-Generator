@@ -1,21 +1,20 @@
-This is a Capstone Project - Flashcard Generater
+-This is a Flashcard Generator Capstone Project.
 
-which has mainly 3 pages
+-This mostly comprises 3 pages.
 
-- Create Flashcard Page
-- My Flashcards Page
-- Flashcard Details Page
+-Flashcard Page to Create
+-Flashcards I Have Page
+-Problem Statement for the Flashcard Details Page: To design a Flashcard Generator Web Application with primarily 3 pages,
 
-Problem Statement :- to create a Flashcard Generator Web Application, which will have mainly 3 pages,
+-The first page was for creating a flashcard, which had two forms: one for the name and description of the flashcard and the ability to add images; the second form was for creating a dynamic form using FORMIK, which has individual card names and descriptions. The Flashcard will be produced when you click the Create Button.
 
-- First page was to Create Flashcard which contains two form one for the name & description of the flashcard and also has functionality to add Images, second form was to create Dynamic Form which was created using FORMIK, which has individual card name & card description. After clicking the Create Button, the Flashcard will be created.
+-Formik & Redux Toolkit is used for Global State Management and also supports form validations.
 
-- Also has form validations using Formik & Redux Toolkit is used for the Global State Management
+-On the second page, all of the user-created cards were revealed. By default, the user can only see 6 cards; however, after selecting the See All button, all of the remaining cards are shown.
 
-- The second page was to display all the user created cards, By default the user can only see 6 cards & after clicking the See All button all the remaining cards will be displayed.
+-After choosing View Cards, the user is sent to the flashcard information page, where they may view all the cards on that flashcard and pick which cards to display in the center sections by clicking the menu on the left side.
 
-- After clicking on the View Cards, User redirected to flashcard details page, where user can see all the cards on that flashcard, by clicking on the menu on the left side display the each selected card on the middle section,
+-The Share, Download, and Print buttons are located on the right side. By clicking the Share button, a Modal opens, allowing the user to copy the link there. By pressing the Copy to Clipboard button, the link is copied to the clipboard, allowing the user to paste it anywhere.
 
-- On the right side there are the button i.e. Share, Download, Print, by clicking on the Share button a Modal pops up & the user can copy link on that model by clicking on the copy to clipboard button the link copied to the clipboard & user can paste it anywhere.
+-The user may post the produced flashcard to their social media accounts using the bottom-side modal on platforms including Facebook, Instagram, Whatsapp, Twitter, and Mail.
 
-- On that same modal on bottom side, user can share the created flashcard to their social handler like Facebook, Instagram, Whatsapp, Twitter, Mail, etc
