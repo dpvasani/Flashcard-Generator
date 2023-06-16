@@ -3,8 +3,14 @@
 ## This mostly comprises 3 pages.
 
 ### Flashcard Page to Create
-### Flashcards I Have Page
+![Image](https://github.com/dpvasani/Flashcard-Generator/assets/109815626/9ae42a9d-c584-424e-a856-58ec7311e6fe)
+
+### My FlashCard Page
+![image](https://github.com/dpvasani/Flashcard-Generator/assets/109815626/e7484454-a093-4f56-af1f-75e7bfd4c30d)
+
 ### Flashcard Details Page
+![image](https://github.com/dpvasani/Flashcard-Generator/assets/109815626/7ff60aee-4f63-4ff5-9fec-7261eb69f7f4)
+
 * Problem Statement for the Flashcard Details Page:To design a Flashcard Generator Web Application with primarily 3 pages,
 
 * The first page was for creating a flashcard, which had two forms: one for the name and description of the flashcard and the ability to add images; the second form was for creating a dynamic form using FORMIK, which has individual card names and descriptions. The Flashcard will be produced when you click the Create Button.
