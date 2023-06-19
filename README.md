@@ -25,6 +25,4 @@
 
 * The user may post the produced flashcard to their social media accounts using the bottom-side modal on platforms including Facebook, Instagram, Whatsapp, Twitter, and Mail.
 
-- GitHub [Click Here](https://github.com/dpvasani/Flashcard-Generator)
 
-- Live Demo [Click Here](https://flashcard-generator56.netlify.app/)
